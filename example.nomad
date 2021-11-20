@@ -39,11 +39,11 @@ size = 300
 task "lab3" {
 driver = "java"
 config {
-jar_path = "local/lab3/target/HelloWorldBot-1.0.0-shaded.jar"
+jar_path = "local/lab3/target/ServiceCreate.jar"
 jvm_options = ["-Xmx2048m", "-Xms256m"]
 }
 artifact {
-source = "git::https://github.com/alexzhyshko/HelloWorldBot.git"
+source = "git::https://github.com/danielshulgin/TestBot.git"
 destination = "local/lab3"
 }
 }
